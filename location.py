@@ -33,29 +33,39 @@ def main():
 def AltiLongi():
     geolocator = Nominatim(user_agent="geoapiExercises")
     alti = input(ly + "Type Latitude: " + lc)
-    logi = input(ly + "Type Logitude: " + ran)
+    logi = input(ly + "Type Longitude: " + ran)
     lald = alti+","+logi
     print("Latitude and Longitude:",lald)
     location = geolocator.geocode(lald)
     print(lr + f"Location address of {lald} :")
     print(ran + location)
 
+
+def zipper():
+    geocode = Nominatim(user_agent="getapiExpres")
+
+    code = input(g + "Enter zipcode: ")
+
+    location = geocode.geocode(code)
+
+    print(y + f"\nDetails of {code} is:\n" , location)
+
 no = ["n" , "no"]
 yes = ["y" , "yes"]
 cont = ""
 
 while cont not in no:
-    print(lr + "[1]" + c +" Get Zip code")
-    print(lr + "[2]" + c +" With Latitude $ Longitude")
-    print(lr + "[3]" + c +" Find details")
-    print(lr + "[4]" + c +" EXIT" +ly +"!!!")
+    print(r + "[1]" + c +" Get Zip code")
+    print(r + "[2]" + c +" With Latitude / Longitude")
+    print(r + "[3]" + c +" Find details of Zip Code")
+    print(r + "[4]" + c +" EXIT" +ly +"!!!")
     choice = input(ran+"\nroot@LostSoul~ ")
     if choice == "1":
         main()
     elif choice == "2":
         AltiLongi()
     elif choice == "3":
-        main()
+        zipper()
     elif choice == "4":
         exit()
 
