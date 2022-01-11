@@ -6,7 +6,7 @@ Find information of any place ,  Find information of any place with Latitude and
 2. cd LostSoul
 3. ls
 4. pip install -r requirements.txt
-5. python location.py
+5. python3 location.py
 
 ! Enjoy !
 
