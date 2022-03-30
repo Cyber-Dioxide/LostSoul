@@ -2,7 +2,7 @@
 Find information of any place ,  Find information of any place with Latitude and Longitude , Get Zip Code of your any Area
 
 # Usage
-1. git clone https://github.com/Saadkhan041/LostSoul
+1. git clone https://github.com/Cyber-Dioxide/LostSoul
 2. cd LostSoul
 3. ls
 4. pip install -r requirements.txt
@@ -16,4 +16,4 @@ Find information of any place ,  Find information of any place with Latitude and
 
 # Help | Support
 
-for any help | support , iam mostly active on Instagram @saadkhan041 & @coding_memz
+for any help | support , iam mostly active on Instagram @cyber_dioxide & @cyber_dioxide
